@@ -8,12 +8,12 @@ public class EvenOdd {
 		Scanner reader = new Scanner(System.in);
 
 		System.out.print("Enter a number: ");
-		int num = reader.nextInt();
+		int num2 = reader.nextInt();
 
-		if(num % 2 == 0)
-			System.out.println(number1 + " is even");
+		if(num2 % 2 == 0)
+			System.out.println(num2 + " is even");
 		else
-			System.out.println(number2 + " is odd");
+			System.out.println(num2 + " is odd");
 	}
 // this line is added by rago for test
 
